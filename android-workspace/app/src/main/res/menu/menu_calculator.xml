@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/unit"
+        android:title="单位换算">
+        <menu>
+            <item
+                android:id="@+id/length"
+                android:title="长度">
+            </item>
+            <item
+                android:id="@+id/weight"
+                android:title="重量">
+            </item>
+            <item
+                android:id="@+id/time"
+                android:title="时间">
+            </item>
+            <item
+                android:id="@+id/volume"
+                android:title="重量">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/system"
+        android:title="进制转换">
+    </item>
+    <item
+        android:id="@+id/first"
+        android:title="帮助">
+    </item>
+    <item
+        android:id="@+id/second"
+        android:title="退出">
+    </item>
+
+</menu>
